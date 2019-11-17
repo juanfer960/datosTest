@@ -1,392 +1,380 @@
-{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf600
-{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;}
-{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red97\green84\blue161;\red43\green149\blue67;
-}
-{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;\cssrgb\c45882\c41961\c69412;\cssrgb\c19216\c63922\c32941;
-}
-\margl1440\margr1440\vieww10800\viewh8400\viewkind0
-\deftab720
-\pard\pardeftab720\sl280\partightenfactor0
-
-\f0\fs24 \cf2 \expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 \{\
- \cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "flare"\cf2 \strokec2 ,\
- \cf3 \strokec3 "children"\cf2 \strokec2 : [\
-  \{\
-   \cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "analytics"\cf2 \strokec2 ,\
-   \cf3 \strokec3 "children"\cf2 \strokec2 : [\
-    \{\
-     \cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "cluster"\cf2 \strokec2 ,\
-     \cf3 \strokec3 "children"\cf2 \strokec2 : [\
-      \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "AgglomerativeCluster"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 3938\cf2 \strokec2 \},\
-      \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "CommunityStructure"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 3812\cf2 \strokec2 \},\
-      \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "HierarchicalCluster"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 6714\cf2 \strokec2 \},\
-      \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "MergeEdge"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 743\cf2 \strokec2 \}\
-     ]\
-    \},\
-    \{\
-     \cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "graph"\cf2 \strokec2 ,\
-     \cf3 \strokec3 "children"\cf2 \strokec2 : [\
-      \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "BetweennessCentrality"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 3534\cf2 \strokec2 \},\
-      \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "LinkDistance"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 5731\cf2 \strokec2 \},\
-      \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "MaxFlowMinCut"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 7840\cf2 \strokec2 \},\
-      \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "ShortestPaths"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 5914\cf2 \strokec2 \},\
-      \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "SpanningTree"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 3416\cf2 \strokec2 \}\
-     ]\
-    \},\
-    \{\
-     \cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "optimization"\cf2 \strokec2 ,\
-     \cf3 \strokec3 "children"\cf2 \strokec2 : [\
-      \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "AspectRatioBanker"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 7074\cf2 \strokec2 \}\
-     ]\
-    \}\
-   ]\
-  \},\
-  \{\
-   \cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "animate"\cf2 \strokec2 ,\
-   \cf3 \strokec3 "children"\cf2 \strokec2 : [\
-    \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "Easing"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 17010\cf2 \strokec2 \},\
-    \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "FunctionSequence"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 5842\cf2 \strokec2 \},\
-    \{\
-     \cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "interpolate"\cf2 \strokec2 ,\
-     \cf3 \strokec3 "children"\cf2 \strokec2 : [\
-      \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "ArrayInterpolator"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 1983\cf2 \strokec2 \},\
-      \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "ColorInterpolator"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 2047\cf2 \strokec2 \},\
-      \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "DateInterpolator"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 1375\cf2 \strokec2 \},\
-      \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "Interpolator"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 8746\cf2 \strokec2 \},\
-      \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "MatrixInterpolator"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 2202\cf2 \strokec2 \},\
-      \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "NumberInterpolator"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 1382\cf2 \strokec2 \},\
-      \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "ObjectInterpolator"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 1629\cf2 \strokec2 \},\
-      \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "PointInterpolator"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 1675\cf2 \strokec2 \},\
-      \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "RectangleInterpolator"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 2042\cf2 \strokec2 \}\
-     ]\
-    \},\
-    \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "ISchedulable"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 1041\cf2 \strokec2 \},\
-    \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "Parallel"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 5176\cf2 \strokec2 \},\
-    \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "Pause"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 449\cf2 \strokec2 \},\
-    \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "Scheduler"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 5593\cf2 \strokec2 \},\
-    \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "Sequence"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 5534\cf2 \strokec2 \},\
-    \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "Transition"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 9201\cf2 \strokec2 \},\
-    \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "Transitioner"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 19975\cf2 \strokec2 \},\
-    \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "TransitionEvent"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 1116\cf2 \strokec2 \},\
-    \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "Tween"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 6006\cf2 \strokec2 \}\
-   ]\
-  \},\
-  \{\
-   \cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "data"\cf2 \strokec2 ,\
-   \cf3 \strokec3 "children"\cf2 \strokec2 : [\
-    \{\
-     \cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "converters"\cf2 \strokec2 ,\
-     \cf3 \strokec3 "children"\cf2 \strokec2 : [\
-      \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "Converters"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 721\cf2 \strokec2 \},\
-      \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "DelimitedTextConverter"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 4294\cf2 \strokec2 \},\
-      \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "GraphMLConverter"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 9800\cf2 \strokec2 \},\
-      \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "IDataConverter"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 1314\cf2 \strokec2 \},\
-      \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "JSONConverter"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 2220\cf2 \strokec2 \}\
-     ]\
-    \},\
-    \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "DataField"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 1759\cf2 \strokec2 \},\
-    \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "DataSchema"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 2165\cf2 \strokec2 \},\
-    \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "DataSet"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 586\cf2 \strokec2 \},\
-    \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "DataSource"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 3331\cf2 \strokec2 \},\
-    \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "DataTable"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 772\cf2 \strokec2 \},\
-    \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "DataUtil"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 3322\cf2 \strokec2 \}\
-   ]\
-  \},\
-  \{\
-   \cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "display"\cf2 \strokec2 ,\
-   \cf3 \strokec3 "children"\cf2 \strokec2 : [\
-    \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "DirtySprite"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 8833\cf2 \strokec2 \},\
-    \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "LineSprite"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 1732\cf2 \strokec2 \},\
-    \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "RectSprite"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 3623\cf2 \strokec2 \},\
-    \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "TextSprite"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 10066\cf2 \strokec2 \}\
-   ]\
-  \},\
-  \{\
-   \cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "flex"\cf2 \strokec2 ,\
-   \cf3 \strokec3 "children"\cf2 \strokec2 : [\
-    \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "FlareVis"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 4116\cf2 \strokec2 \}\
-   ]\
-  \},\
-  \{\
-   \cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "physics"\cf2 \strokec2 ,\
-   \cf3 \strokec3 "children"\cf2 \strokec2 : [\
-    \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "DragForce"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 1082\cf2 \strokec2 \},\
-    \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "GravityForce"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 1336\cf2 \strokec2 \},\
-    \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "IForce"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 319\cf2 \strokec2 \},\
-    \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "NBodyForce"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 10498\cf2 \strokec2 \},\
-    \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "Particle"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 2822\cf2 \strokec2 \},\
-    \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "Simulation"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 9983\cf2 \strokec2 \},\
-    \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "Spring"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 2213\cf2 \strokec2 \},\
-    \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "SpringForce"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 1681\cf2 \strokec2 \}\
-   ]\
-  \},\
-  \{\
-   \cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "query"\cf2 \strokec2 ,\
-   \cf3 \strokec3 "children"\cf2 \strokec2 : [\
-    \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "AggregateExpression"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 1616\cf2 \strokec2 \},\
-    \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "And"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 1027\cf2 \strokec2 \},\
-    \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "Arithmetic"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 3891\cf2 \strokec2 \},\
-    \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "Average"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 891\cf2 \strokec2 \},\
-    \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "BinaryExpression"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 2893\cf2 \strokec2 \},\
-    \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "Comparison"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 5103\cf2 \strokec2 \},\
-    \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "CompositeExpression"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 3677\cf2 \strokec2 \},\
-    \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "Count"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 781\cf2 \strokec2 \},\
-    \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "DateUtil"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 4141\cf2 \strokec2 \},\
-    \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "Distinct"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 933\cf2 \strokec2 \},\
-    \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "Expression"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 5130\cf2 \strokec2 \},\
-    \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "ExpressionIterator"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 3617\cf2 \strokec2 \},\
-    \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "Fn"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 3240\cf2 \strokec2 \},\
-    \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "If"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 2732\cf2 \strokec2 \},\
-    \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "IsA"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 2039\cf2 \strokec2 \},\
-    \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "Literal"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 1214\cf2 \strokec2 \},\
-    \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "Match"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 3748\cf2 \strokec2 \},\
-    \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "Maximum"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 843\cf2 \strokec2 \},\
-    \{\
-     \cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "methods"\cf2 \strokec2 ,\
-     \cf3 \strokec3 "children"\cf2 \strokec2 : [\
-      \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "add"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 593\cf2 \strokec2 \},\
-      \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "and"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 330\cf2 \strokec2 \},\
-      \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "average"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 287\cf2 \strokec2 \},\
-      \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "count"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 277\cf2 \strokec2 \},\
-      \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "distinct"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 292\cf2 \strokec2 \},\
-      \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "div"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 595\cf2 \strokec2 \},\
-      \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "eq"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 594\cf2 \strokec2 \},\
-      \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "fn"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 460\cf2 \strokec2 \},\
-      \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "gt"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 603\cf2 \strokec2 \},\
-      \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "gte"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 625\cf2 \strokec2 \},\
-      \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "iff"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 748\cf2 \strokec2 \},\
-      \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "isa"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 461\cf2 \strokec2 \},\
-      \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "lt"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 597\cf2 \strokec2 \},\
-      \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "lte"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 619\cf2 \strokec2 \},\
-      \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "max"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 283\cf2 \strokec2 \},\
-      \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "min"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 283\cf2 \strokec2 \},\
-      \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "mod"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 591\cf2 \strokec2 \},\
-      \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "mul"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 603\cf2 \strokec2 \},\
-      \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "neq"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 599\cf2 \strokec2 \},\
-      \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "not"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 386\cf2 \strokec2 \},\
-      \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "or"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 323\cf2 \strokec2 \},\
-      \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "orderby"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 307\cf2 \strokec2 \},\
-      \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "range"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 772\cf2 \strokec2 \},\
-      \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "select"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 296\cf2 \strokec2 \},\
-      \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "stddev"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 363\cf2 \strokec2 \},\
-      \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "sub"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 600\cf2 \strokec2 \},\
-      \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "sum"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 280\cf2 \strokec2 \},\
-      \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "update"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 307\cf2 \strokec2 \},\
-      \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "variance"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 335\cf2 \strokec2 \},\
-      \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "where"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 299\cf2 \strokec2 \},\
-      \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "xor"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 354\cf2 \strokec2 \},\
-      \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "_"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 264\cf2 \strokec2 \}\
-     ]\
-    \},\
-    \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "Minimum"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 843\cf2 \strokec2 \},\
-    \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "Not"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 1554\cf2 \strokec2 \},\
-    \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "Or"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 970\cf2 \strokec2 \},\
-    \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "Query"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 13896\cf2 \strokec2 \},\
-    \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "Range"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 1594\cf2 \strokec2 \},\
-    \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "StringUtil"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 4130\cf2 \strokec2 \},\
-    \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "Sum"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 791\cf2 \strokec2 \},\
-    \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "Variable"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 1124\cf2 \strokec2 \},\
-    \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "Variance"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 1876\cf2 \strokec2 \},\
-    \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "Xor"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 1101\cf2 \strokec2 \}\
-   ]\
-  \},\
-  \{\
-   \cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "scale"\cf2 \strokec2 ,\
-   \cf3 \strokec3 "children"\cf2 \strokec2 : [\
-    \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "IScaleMap"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 2105\cf2 \strokec2 \},\
-    \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "LinearScale"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 1316\cf2 \strokec2 \},\
-    \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "LogScale"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 3151\cf2 \strokec2 \},\
-    \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "OrdinalScale"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 3770\cf2 \strokec2 \},\
-    \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "QuantileScale"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 2435\cf2 \strokec2 \},\
-    \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "QuantitativeScale"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 4839\cf2 \strokec2 \},\
-    \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "RootScale"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 1756\cf2 \strokec2 \},\
-    \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "Scale"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 4268\cf2 \strokec2 \},\
-    \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "ScaleType"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 1821\cf2 \strokec2 \},\
-    \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "TimeScale"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 5833\cf2 \strokec2 \}\
-   ]\
-  \},\
-  \{\
-   \cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "util"\cf2 \strokec2 ,\
-   \cf3 \strokec3 "children"\cf2 \strokec2 : [\
-    \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "Arrays"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 8258\cf2 \strokec2 \},\
-    \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "Colors"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 10001\cf2 \strokec2 \},\
-    \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "Dates"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 8217\cf2 \strokec2 \},\
-    \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "Displays"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 12555\cf2 \strokec2 \},\
-    \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "Filter"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 2324\cf2 \strokec2 \},\
-    \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "Geometry"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 10993\cf2 \strokec2 \},\
-    \{\
-     \cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "heap"\cf2 \strokec2 ,\
-     \cf3 \strokec3 "children"\cf2 \strokec2 : [\
-      \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "FibonacciHeap"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 9354\cf2 \strokec2 \},\
-      \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "HeapNode"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 1233\cf2 \strokec2 \}\
-     ]\
-    \},\
-    \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "IEvaluable"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 335\cf2 \strokec2 \},\
-    \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "IPredicate"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 383\cf2 \strokec2 \},\
-    \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "IValueProxy"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 874\cf2 \strokec2 \},\
-    \{\
-     \cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "math"\cf2 \strokec2 ,\
-     \cf3 \strokec3 "children"\cf2 \strokec2 : [\
-      \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "DenseMatrix"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 3165\cf2 \strokec2 \},\
-      \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "IMatrix"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 2815\cf2 \strokec2 \},\
-      \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "SparseMatrix"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 3366\cf2 \strokec2 \}\
-     ]\
-    \},\
-    \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "Maths"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 17705\cf2 \strokec2 \},\
-    \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "Orientation"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 1486\cf2 \strokec2 \},\
-    \{\
-     \cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "palette"\cf2 \strokec2 ,\
-     \cf3 \strokec3 "children"\cf2 \strokec2 : [\
-      \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "ColorPalette"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 6367\cf2 \strokec2 \},\
-      \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "Palette"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 1229\cf2 \strokec2 \},\
-      \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "ShapePalette"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 2059\cf2 \strokec2 \},\
-      \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "SizePalette"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 2291\cf2 \strokec2 \}\
-     ]\
-    \},\
-    \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "Property"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 5559\cf2 \strokec2 \},\
-    \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "Shapes"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 19118\cf2 \strokec2 \},\
-    \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "Sort"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 6887\cf2 \strokec2 \},\
-    \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "Stats"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 6557\cf2 \strokec2 \},\
-    \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "Strings"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 22026\cf2 \strokec2 \}\
-   ]\
-  \},\
-  \{\
-   \cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "vis"\cf2 \strokec2 ,\
-   \cf3 \strokec3 "children"\cf2 \strokec2 : [\
-    \{\
-     \cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "axis"\cf2 \strokec2 ,\
-     \cf3 \strokec3 "children"\cf2 \strokec2 : [\
-      \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "Axes"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 1302\cf2 \strokec2 \},\
-      \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "Axis"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 24593\cf2 \strokec2 \},\
-      \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "AxisGridLine"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 652\cf2 \strokec2 \},\
-      \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "AxisLabel"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 636\cf2 \strokec2 \},\
-      \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "CartesianAxes"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 6703\cf2 \strokec2 \}\
-     ]\
-    \},\
-    \{\
-     \cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "controls"\cf2 \strokec2 ,\
-     \cf3 \strokec3 "children"\cf2 \strokec2 : [\
-      \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "AnchorControl"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 2138\cf2 \strokec2 \},\
-      \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "ClickControl"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 3824\cf2 \strokec2 \},\
-      \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "Control"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 1353\cf2 \strokec2 \},\
-      \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "ControlList"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 4665\cf2 \strokec2 \},\
-      \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "DragControl"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 2649\cf2 \strokec2 \},\
-      \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "ExpandControl"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 2832\cf2 \strokec2 \},\
-      \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "HoverControl"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 4896\cf2 \strokec2 \},\
-      \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "IControl"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 763\cf2 \strokec2 \},\
-      \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "PanZoomControl"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 5222\cf2 \strokec2 \},\
-      \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "SelectionControl"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 7862\cf2 \strokec2 \},\
-      \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "TooltipControl"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 8435\cf2 \strokec2 \}\
-     ]\
-    \},\
-    \{\
-     \cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "data"\cf2 \strokec2 ,\
-     \cf3 \strokec3 "children"\cf2 \strokec2 : [\
-      \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "Data"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 20544\cf2 \strokec2 \},\
-      \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "DataList"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 19788\cf2 \strokec2 \},\
-      \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "DataSprite"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 10349\cf2 \strokec2 \},\
-      \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "EdgeSprite"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 3301\cf2 \strokec2 \},\
-      \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "NodeSprite"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 19382\cf2 \strokec2 \},\
-      \{\
-       \cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "render"\cf2 \strokec2 ,\
-       \cf3 \strokec3 "children"\cf2 \strokec2 : [\
-        \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "ArrowType"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 698\cf2 \strokec2 \},\
-        \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "EdgeRenderer"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 5569\cf2 \strokec2 \},\
-        \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "IRenderer"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 353\cf2 \strokec2 \},\
-        \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "ShapeRenderer"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 2247\cf2 \strokec2 \}\
-       ]\
-      \},\
-      \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "ScaleBinding"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 11275\cf2 \strokec2 \},\
-      \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "Tree"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 7147\cf2 \strokec2 \},\
-      \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "TreeBuilder"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 9930\cf2 \strokec2 \}\
-     ]\
-    \},\
-    \{\
-     \cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "events"\cf2 \strokec2 ,\
-     \cf3 \strokec3 "children"\cf2 \strokec2 : [\
-      \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "DataEvent"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 2313\cf2 \strokec2 \},\
-      \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "SelectionEvent"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 1880\cf2 \strokec2 \},\
-      \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "TooltipEvent"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 1701\cf2 \strokec2 \},\
-      \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "VisualizationEvent"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 1117\cf2 \strokec2 \}\
-     ]\
-    \},\
-    \{\
-     \cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "legend"\cf2 \strokec2 ,\
-     \cf3 \strokec3 "children"\cf2 \strokec2 : [\
-      \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "Legend"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 20859\cf2 \strokec2 \},\
-      \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "LegendItem"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 4614\cf2 \strokec2 \},\
-      \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "LegendRange"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 10530\cf2 \strokec2 \}\
-     ]\
-    \},\
-    \{\
-     \cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "operator"\cf2 \strokec2 ,\
-     \cf3 \strokec3 "children"\cf2 \strokec2 : [\
-      \{\
-       \cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "distortion"\cf2 \strokec2 ,\
-       \cf3 \strokec3 "children"\cf2 \strokec2 : [\
-        \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "BifocalDistortion"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 4461\cf2 \strokec2 \},\
-        \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "Distortion"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 6314\cf2 \strokec2 \},\
-        \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "FisheyeDistortion"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 3444\cf2 \strokec2 \}\
-       ]\
-      \},\
-      \{\
-       \cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "encoder"\cf2 \strokec2 ,\
-       \cf3 \strokec3 "children"\cf2 \strokec2 : [\
-        \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "ColorEncoder"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 3179\cf2 \strokec2 \},\
-        \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "Encoder"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 4060\cf2 \strokec2 \},\
-        \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "PropertyEncoder"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 4138\cf2 \strokec2 \},\
-        \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "ShapeEncoder"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 1690\cf2 \strokec2 \},\
-        \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "SizeEncoder"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 1830\cf2 \strokec2 \}\
-       ]\
-      \},\
-      \{\
-       \cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "filter"\cf2 \strokec2 ,\
-       \cf3 \strokec3 "children"\cf2 \strokec2 : [\
-        \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "FisheyeTreeFilter"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 5219\cf2 \strokec2 \},\
-        \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "GraphDistanceFilter"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 3165\cf2 \strokec2 \},\
-        \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "VisibilityFilter"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 3509\cf2 \strokec2 \}\
-       ]\
-      \},\
-      \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "IOperator"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 1286\cf2 \strokec2 \},\
-      \{\
-       \cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "label"\cf2 \strokec2 ,\
-       \cf3 \strokec3 "children"\cf2 \strokec2 : [\
-        \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "Labeler"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 9956\cf2 \strokec2 \},\
-        \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "RadialLabeler"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 3899\cf2 \strokec2 \},\
-        \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "StackedAreaLabeler"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 3202\cf2 \strokec2 \}\
-       ]\
-      \},\
-      \{\
-       \cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "layout"\cf2 \strokec2 ,\
-       \cf3 \strokec3 "children"\cf2 \strokec2 : [\
-        \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "AxisLayout"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 6725\cf2 \strokec2 \},\
-        \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "BundledEdgeRouter"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 3727\cf2 \strokec2 \},\
-        \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "CircleLayout"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 9317\cf2 \strokec2 \},\
-        \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "CirclePackingLayout"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 12003\cf2 \strokec2 \},\
-        \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "DendrogramLayout"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 4853\cf2 \strokec2 \},\
-        \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "ForceDirectedLayout"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 8411\cf2 \strokec2 \},\
-        \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "IcicleTreeLayout"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 4864\cf2 \strokec2 \},\
-        \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "IndentedTreeLayout"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 3174\cf2 \strokec2 \},\
-        \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "Layout"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 7881\cf2 \strokec2 \},\
-        \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "NodeLinkTreeLayout"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 12870\cf2 \strokec2 \},\
-        \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "PieLayout"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 2728\cf2 \strokec2 \},\
-        \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "RadialTreeLayout"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 12348\cf2 \strokec2 \},\
-        \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "RandomLayout"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 870\cf2 \strokec2 \},\
-        \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "StackedAreaLayout"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 9121\cf2 \strokec2 \},\
-        \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "TreeMapLayout"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 9191\cf2 \strokec2 \}\
-       ]\
-      \},\
-      \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "Operator"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 2490\cf2 \strokec2 \},\
-      \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "OperatorList"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 5248\cf2 \strokec2 \},\
-      \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "OperatorSequence"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 4190\cf2 \strokec2 \},\
-      \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "OperatorSwitch"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 2581\cf2 \strokec2 \},\
-      \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "SortOperator"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 2023\cf2 \strokec2 \}\
-     ]\
-    \},\
-    \{\cf3 \strokec3 "name"\cf2 \strokec2 : \cf3 \strokec3 "Visualization"\cf2 \strokec2 , \cf3 \strokec3 "size"\cf2 \strokec2 : \cf4 \strokec4 16540\cf2 \strokec2 \}\
-   ]\
-  \}\
- ]\
-\}\
-}
+{
+    "name": "flare",
+    "children": [
+     {
+      "name": "analytics",
+      "children": [
+       {
+        "name": "cluster",
+        "children": [
+         {"name": "AgglomerativeCluster", "size": 3938},
+         {"name": "CommunityStructure", "size": 3812},
+         {"name": "HierarchicalCluster", "size": 6714},
+         {"name": "MergeEdge", "size": 743}
+        ]
+       },
+       {
+        "name": "graph",
+        "children": [
+         {"name": "BetweennessCentrality", "size": 3534},
+         {"name": "LinkDistance", "size": 5731},
+         {"name": "MaxFlowMinCut", "size": 7840},
+         {"name": "ShortestPaths", "size": 5914},
+         {"name": "SpanningTree", "size": 3416}
+        ]
+       },
+       {
+        "name": "optimization",
+        "children": [
+         {"name": "AspectRatioBanker", "size": 7074}
+        ]
+       }
+      ]
+     },
+     {
+      "name": "animate",
+      "children": [
+       {"name": "Easing", "size": 17010},
+       {"name": "FunctionSequence", "size": 5842},
+       {
+        "name": "interpolate",
+        "children": [
+         {"name": "ArrayInterpolator", "size": 1983},
+         {"name": "ColorInterpolator", "size": 2047},
+         {"name": "DateInterpolator", "size": 1375},
+         {"name": "Interpolator", "size": 8746},
+         {"name": "MatrixInterpolator", "size": 2202},
+         {"name": "NumberInterpolator", "size": 1382},
+         {"name": "ObjectInterpolator", "size": 1629},
+         {"name": "PointInterpolator", "size": 1675},
+         {"name": "RectangleInterpolator", "size": 2042}
+        ]
+       },
+       {"name": "ISchedulable", "size": 1041},
+       {"name": "Parallel", "size": 5176},
+       {"name": "Pause", "size": 449},
+       {"name": "Scheduler", "size": 5593},
+       {"name": "Sequence", "size": 5534},
+       {"name": "Transition", "size": 9201},
+       {"name": "Transitioner", "size": 19975},
+       {"name": "TransitionEvent", "size": 1116},
+       {"name": "Tween", "size": 6006}
+      ]
+     },
+     {
+      "name": "data",
+      "children": [
+       {
+        "name": "converters",
+        "children": [
+         {"name": "Converters", "size": 721},
+         {"name": "DelimitedTextConverter", "size": 4294},
+         {"name": "GraphMLConverter", "size": 9800},
+         {"name": "IDataConverter", "size": 1314},
+         {"name": "JSONConverter", "size": 2220}
+        ]
+       },
+       {"name": "DataField", "size": 1759},
+       {"name": "DataSchema", "size": 2165},
+       {"name": "DataSet", "size": 586},
+       {"name": "DataSource", "size": 3331},
+       {"name": "DataTable", "size": 772},
+       {"name": "DataUtil", "size": 3322}
+      ]
+     },
+     {
+      "name": "display",
+      "children": [
+       {"name": "DirtySprite", "size": 8833},
+       {"name": "LineSprite", "size": 1732},
+       {"name": "RectSprite", "size": 3623},
+       {"name": "TextSprite", "size": 10066}
+      ]
+     },
+     {
+      "name": "flex",
+      "children": [
+       {"name": "FlareVis", "size": 4116}
+      ]
+     },
+     {
+      "name": "physics",
+      "children": [
+       {"name": "DragForce", "size": 1082},
+       {"name": "GravityForce", "size": 1336},
+       {"name": "IForce", "size": 319},
+       {"name": "NBodyForce", "size": 10498},
+       {"name": "Particle", "size": 2822},
+       {"name": "Simulation", "size": 9983},
+       {"name": "Spring", "size": 2213},
+       {"name": "SpringForce", "size": 1681}
+      ]
+     },
+     {
+      "name": "query",
+      "children": [
+       {"name": "AggregateExpression", "size": 1616},
+       {"name": "And", "size": 1027},
+       {"name": "Arithmetic", "size": 3891},
+       {"name": "Average", "size": 891},
+       {"name": "BinaryExpression", "size": 2893},
+       {"name": "Comparison", "size": 5103},
+       {"name": "CompositeExpression", "size": 3677},
+       {"name": "Count", "size": 781},
+       {"name": "DateUtil", "size": 4141},
+       {"name": "Distinct", "size": 933},
+       {"name": "Expression", "size": 5130},
+       {"name": "ExpressionIterator", "size": 3617},
+       {"name": "Fn", "size": 3240},
+       {"name": "If", "size": 2732},
+       {"name": "IsA", "size": 2039},
+       {"name": "Literal", "size": 1214},
+       {"name": "Match", "size": 3748},
+       {"name": "Maximum", "size": 843},
+       {
+        "name": "methods",
+        "children": [
+         {"name": "add", "size": 593},
+         {"name": "and", "size": 330},
+         {"name": "average", "size": 287},
+         {"name": "count", "size": 277},
+         {"name": "distinct", "size": 292},
+         {"name": "div", "size": 595},
+         {"name": "eq", "size": 594},
+         {"name": "fn", "size": 460},
+         {"name": "gt", "size": 603},
+         {"name": "gte", "size": 625},
+         {"name": "iff", "size": 748},
+         {"name": "isa", "size": 461},
+         {"name": "lt", "size": 597},
+         {"name": "lte", "size": 619},
+         {"name": "max", "size": 283},
+         {"name": "min", "size": 283},
+         {"name": "mod", "size": 591},
+         {"name": "mul", "size": 603},
+         {"name": "neq", "size": 599},
+         {"name": "not", "size": 386},
+         {"name": "or", "size": 323},
+         {"name": "orderby", "size": 307},
+         {"name": "range", "size": 772},
+         {"name": "select", "size": 296},
+         {"name": "stddev", "size": 363},
+         {"name": "sub", "size": 600},
+         {"name": "sum", "size": 280},
+         {"name": "update", "size": 307},
+         {"name": "variance", "size": 335},
+         {"name": "where", "size": 299},
+         {"name": "xor", "size": 354},
+         {"name": "_", "size": 264}
+        ]
+       },
+       {"name": "Minimum", "size": 843},
+       {"name": "Not", "size": 1554},
+       {"name": "Or", "size": 970},
+       {"name": "Query", "size": 13896},
+       {"name": "Range", "size": 1594},
+       {"name": "StringUtil", "size": 4130},
+       {"name": "Sum", "size": 791},
+       {"name": "Variable", "size": 1124},
+       {"name": "Variance", "size": 1876},
+       {"name": "Xor", "size": 1101}
+      ]
+     },
+     {
+      "name": "scale",
+      "children": [
+       {"name": "IScaleMap", "size": 2105},
+       {"name": "LinearScale", "size": 1316},
+       {"name": "LogScale", "size": 3151},
+       {"name": "OrdinalScale", "size": 3770},
+       {"name": "QuantileScale", "size": 2435},
+       {"name": "QuantitativeScale", "size": 4839},
+       {"name": "RootScale", "size": 1756},
+       {"name": "Scale", "size": 4268},
+       {"name": "ScaleType", "size": 1821},
+       {"name": "TimeScale", "size": 5833}
+      ]
+     },
+     {
+      "name": "util",
+      "children": [
+       {"name": "Arrays", "size": 8258},
+       {"name": "Colors", "size": 10001},
+       {"name": "Dates", "size": 8217},
+       {"name": "Displays", "size": 12555},
+       {"name": "Filter", "size": 2324},
+       {"name": "Geometry", "size": 10993},
+       {
+        "name": "heap",
+        "children": [
+         {"name": "FibonacciHeap", "size": 9354},
+         {"name": "HeapNode", "size": 1233}
+        ]
+       },
+       {"name": "IEvaluable", "size": 335},
+       {"name": "IPredicate", "size": 383},
+       {"name": "IValueProxy", "size": 874},
+       {
+        "name": "math",
+        "children": [
+         {"name": "DenseMatrix", "size": 3165},
+         {"name": "IMatrix", "size": 2815},
+         {"name": "SparseMatrix", "size": 3366}
+        ]
+       },
+       {"name": "Maths", "size": 17705},
+       {"name": "Orientation", "size": 1486},
+       {
+        "name": "palette",
+        "children": [
+         {"name": "ColorPalette", "size": 6367},
+         {"name": "Palette", "size": 1229},
+         {"name": "ShapePalette", "size": 2059},
+         {"name": "SizePalette", "size": 2291}
+        ]
+       },
+       {"name": "Property", "size": 5559},
+       {"name": "Shapes", "size": 19118},
+       {"name": "Sort", "size": 6887},
+       {"name": "Stats", "size": 6557},
+       {"name": "Strings", "size": 22026}
+      ]
+     },
+     {
+      "name": "vis",
+      "children": [
+       {
+        "name": "axis",
+        "children": [
+         {"name": "Axes", "size": 1302},
+         {"name": "Axis", "size": 24593},
+         {"name": "AxisGridLine", "size": 652},
+         {"name": "AxisLabel", "size": 636},
+         {"name": "CartesianAxes", "size": 6703}
+        ]
+       },
+       {
+        "name": "controls",
+        "children": [
+         {"name": "AnchorControl", "size": 2138},
+         {"name": "ClickControl", "size": 3824},
+         {"name": "Control", "size": 1353},
+         {"name": "ControlList", "size": 4665},
+         {"name": "DragControl", "size": 2649},
+         {"name": "ExpandControl", "size": 2832},
+         {"name": "HoverControl", "size": 4896},
+         {"name": "IControl", "size": 763},
+         {"name": "PanZoomControl", "size": 5222},
+         {"name": "SelectionControl", "size": 7862},
+         {"name": "TooltipControl", "size": 8435}
+        ]
+       },
+       {
+        "name": "data",
+        "children": [
+         {"name": "Data", "size": 20544},
+         {"name": "DataList", "size": 19788},
+         {"name": "DataSprite", "size": 10349},
+         {"name": "EdgeSprite", "size": 3301},
+         {"name": "NodeSprite", "size": 19382},
+         {
+          "name": "render",
+          "children": [
+           {"name": "ArrowType", "size": 698},
+           {"name": "EdgeRenderer", "size": 5569},
+           {"name": "IRenderer", "size": 353},
+           {"name": "ShapeRenderer", "size": 2247}
+          ]
+         },
+         {"name": "ScaleBinding", "size": 11275},
+         {"name": "Tree", "size": 7147},
+         {"name": "TreeBuilder", "size": 9930}
+        ]
+       },
+       {
+        "name": "events",
+        "children": [
+         {"name": "DataEvent", "size": 2313},
+         {"name": "SelectionEvent", "size": 1880},
+         {"name": "TooltipEvent", "size": 1701},
+         {"name": "VisualizationEvent", "size": 1117}
+        ]
+       },
+       {
+        "name": "legend",
+        "children": [
+         {"name": "Legend", "size": 20859},
+         {"name": "LegendItem", "size": 4614},
+         {"name": "LegendRange", "size": 10530}
+        ]
+       },
+       {
+        "name": "operator",
+        "children": [
+         {
+          "name": "distortion",
+          "children": [
+           {"name": "BifocalDistortion", "size": 4461},
+           {"name": "Distortion", "size": 6314},
+           {"name": "FisheyeDistortion", "size": 3444}
+          ]
+         },
+         {
+          "name": "encoder",
+          "children": [
+           {"name": "ColorEncoder", "size": 3179},
+           {"name": "Encoder", "size": 4060},
+           {"name": "PropertyEncoder", "size": 4138},
+           {"name": "ShapeEncoder", "size": 1690},
+           {"name": "SizeEncoder", "size": 1830}
+          ]
+         },
+         {
+          "name": "filter",
+          "children": [
+           {"name": "FisheyeTreeFilter", "size": 5219},
+           {"name": "GraphDistanceFilter", "size": 3165},
+           {"name": "VisibilityFilter", "size": 3509}
+          ]
+         },
+         {"name": "IOperator", "size": 1286},
+         {
+          "name": "label",
+          "children": [
+           {"name": "Labeler", "size": 9956},
+           {"name": "RadialLabeler", "size": 3899},
+           {"name": "StackedAreaLabeler", "size": 3202}
+          ]
+         },
+         {
+          "name": "layout",
+          "children": [
+           {"name": "AxisLayout", "size": 6725},
+           {"name": "BundledEdgeRouter", "size": 3727},
+           {"name": "CircleLayout", "size": 9317},
+           {"name": "CirclePackingLayout", "size": 12003},
+           {"name": "DendrogramLayout", "size": 4853},
+           {"name": "ForceDirectedLayout", "size": 8411},
+           {"name": "IcicleTreeLayout", "size": 4864},
+           {"name": "IndentedTreeLayout", "size": 3174},
+           {"name": "Layout", "size": 7881},
+           {"name": "NodeLinkTreeLayout", "size": 12870},
+           {"name": "PieLayout", "size": 2728},
+           {"name": "RadialTreeLayout", "size": 12348},
+           {"name": "RandomLayout", "size": 870},
+           {"name": "StackedAreaLayout", "size": 9121},
+           {"name": "TreeMapLayout", "size": 9191}
+          ]
+         },
+         {"name": "Operator", "size": 2490},
+         {"name": "OperatorList", "size": 5248},
+         {"name": "OperatorSequence", "size": 4190},
+         {"name": "OperatorSwitch", "size": 2581},
+         {"name": "SortOperator", "size": 2023}
+        ]
+       },
+       {"name": "Visualization", "size": 16540}
+      ]
+     }
+    ]
+   }
